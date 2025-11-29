@@ -1,0 +1,46 @@
+.container {
+    width: 575px;
+    height: 825px;
+
+    background-color: #797978;
+    padding-left: 30px;
+}
+
+#height,
+#weight {
+    width: 159px;
+    height: 25px;
+    margin-top: 40px;
+}
+
+#weight-guide {
+    margin-left: 75px;
+    margin-top: 23px
+}
+#results {
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #f1dbdb
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    margin-left: 99px;
+    margin-top: 25px;
+    background-color: azure;
+    padding: 1px 38px;
+    border-radius: 8px;
+    color: #4d4646;
+    text-decoration: none;
+    border: 2px aolid black;
+    font-size: 25px;
+
+}
+
+h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+
+}

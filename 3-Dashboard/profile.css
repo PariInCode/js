@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,#0f0f0f,#1a1a1a,#000000);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+    color: #00eaff;
+    text-shadow: 0 0 20px #00eaff;
+    animation: float 3s imfimite ease-in-out ;
+
+}
+
+@keyframes float{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0);}
+}
+
+#users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 25px;
+
+}
+
+.card {
+width: 250px;
+padding: 25px;
+background: rgba(255, 255, 255, 0.05);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+backdrop-filter: blur(10px);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 234, 255, 0.2);
+transform-style: preserve-3d;
+transform: rotateY(15deg) rotateX(8deg);
+transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+
+.card:hover {
+transform: rotateY(0deg) rotateX(0deg) scale(1.05);
+box-shadow: 0 20px 40px rgba(0, 234, 255, 0.5), inset 0 0 20px rgba(0, 234, 255, 0.3);
+}
+
+
+.role {
+font-size: 1.5rem;
+margin-bottom: 10px;
+color: #00eaff;
+text-shadow: 0 0 10px #00eaff;
+}
+
+
+.name {
+font-size: 1.2rem;
+color: #ffffff;
+}
