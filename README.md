@@ -1,4 +1,4 @@
-# js
+# Javascript
 # JavaScript Mini Projects 🚀
 
 A collection of beginner-friendly **JavaScript projects** built to strengthen core concepts like **DOM manipulation, events, logic building, and UI interactions**.
